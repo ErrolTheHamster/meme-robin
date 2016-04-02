@@ -1,18 +1,18 @@
 // ==UserScript==
-// @name        Robin Assistant
-// @description Growth in peace
-// @namespace   com.github.leoverto
+// @name        Meme-Robin
+// @description Robin with memes
+// @namespace   com.github.ErrolTheHamster
 // @include     https://www.reddit.com/robin/
 // @include     https://www.reddit.com/robin
-// @version     1.8
-// @author      LeoVerto, Wiiplay123, Getnamo
+// @version     1.0
+// @author      ErrolTheHamster
 // @grant       none
 // ==/UserScript==
 
 var autoVote = true;
 var disableVoteMsgs = true;
 var filterSpam = true;
-var version = "1.8";
+var version = "1.0";
 
 var ownName = $('.user a').text();
 var filteredSpamCount = 0;
@@ -38,7 +38,8 @@ var spamBlacklist = [
   "TRUMPSBUTTPIRATES2016", "TRUMPSFIERYPOOPS2016",
   "ALL HAIL THE TACO BELL BOT", "#420", "้", "็", "◕_◕",
   "<<<<<<<<<<<<<<<<<<<<<<", "growing is all we know", "f it ends on you",
-  "timecube", "\( ͡° ͜ʖ ͡°\)", "◕", "guys can you please not spam the chat"
+  "timecube", "\( ͡° ͜ʖ ͡°\)", "◕", "guys can you please not spam the chat",
+  "raise your dongers", "memes!!!", "stump the trump"
 ];
 
 function rewriteCSS() {
